@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://render.com/docs/web-services#port-binding",
+  baseURL: "https://stockflow-mvp-tzvv.onrender.com",
 });
 
 // Attach token if logged in
