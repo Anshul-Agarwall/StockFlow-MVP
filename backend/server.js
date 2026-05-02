@@ -5,7 +5,9 @@ const db=require("./db");
 const authRoutes = require("./routes/auth");
 const productRoutes = require("./routes/products");
 const app=express();
-app.use(cors());
+app.use(cors({
+  origin: "*"
+}));
 app.use(express.json());
 app.use("/api/auth",authRoutes);
 app.use("/api/products",productRoutes);
