@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://stockflow-mvp-tzvv.onrender.com",
+  baseURL: "https://stockflow-mvp-tzvv.onrender.com/api",
 });
 
 // Attach token if logged in
