@@ -31,7 +31,7 @@ export default function Admin() {
     }
 
     loadProducts();
-  }, []);
+  }, [navigate, user]);
 
   const loadProducts = async () => {
     setLoading(true);
